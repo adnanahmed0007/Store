@@ -1,4 +1,4 @@
-//verfiy the otp also genrate the token also take email and otp from req body
+ 
 
 import User from "../../models/Signupmodel.js";
 import GenerateToken from "../../utils/Generatetokes.js";
@@ -47,4 +47,5 @@ const verifyotp = async (req, res) => {
     }
 
 }
+
 export default verifyotp;
