@@ -1,4 +1,4 @@
-//here genrate token
+ 
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 dotenv.config();
@@ -12,4 +12,5 @@ const GenerateToken = async (user_id, res) => {
     })
     return token;
 }
+
 export default GenerateToken;
