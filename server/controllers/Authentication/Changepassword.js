@@ -1,4 +1,4 @@
-//change password controller with email and old password and new password
+ 
 import User from "../../models/Signupmodel.js";
 import bcrypt from "bcrypt";
 const changepassword = async (req, res) => {
@@ -28,4 +28,5 @@ const changepassword = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 }
+
 export default changepassword;
