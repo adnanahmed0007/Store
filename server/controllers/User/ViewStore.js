@@ -1,4 +1,4 @@
-//user can view store and its details
+ 
 import Storemodels from "../../models/Storemodels.js";
 const Viewstore = async (req, res) => {
     try {
@@ -17,4 +17,5 @@ const Viewstore = async (req, res) => {
         return res.status(500).json({ error: error.message });
     }
 }
+
 export default Viewstore;
