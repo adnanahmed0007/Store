@@ -1,4 +1,4 @@
-//Login controllers with  email and password and also save the otp also in the genrate it and send to the sendotp user them i will verifu utils
+ 
 import User from "../../models/Signupmodel.js";
 import bcrypt from "bcrypt";
 import sendotpuser from "../../utils/Sendotp.js";
@@ -35,4 +35,5 @@ const login = async (req, res) => {
         res.status(400).json({ error: error.message });
     }
 }
+
 export default login;
