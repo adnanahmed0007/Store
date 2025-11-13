@@ -1,0 +1,61 @@
+.store-owner-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.store-owner-title {
+    text-align: center;
+    color: #222;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.store-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.store-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 360px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.store-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.store-name {
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.store-card p {
+    margin: 6px 0;
+    color: #333;
+    font-size: 15px;
+}
+
+.store-loading,
+.store-error {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.store-error {
+    color: red;
+}

@@ -1,0 +1,19 @@
+
+.btn {
+     background-color: red;
+    color: white;
+    height: 100px;
+    width: 200px;
+    font-size: 24px;
+
+
+
+}
+.logout-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2e3a59, #1b2538);
+}

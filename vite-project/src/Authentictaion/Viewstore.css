@@ -1,0 +1,106 @@
+.store-container {
+    padding: 40px;
+    background-color: #f9fafb;
+    min-height: 100vh;
+}
+
+.store-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.store-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.store-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.store-name {
+    font-size: 1.3rem;
+    color: #222;
+    font-weight: 600;
+}
+
+.store-address {
+    color: #555;
+    margin: 5px 0;
+}
+
+.store-rating {
+    margin-top: 8px;
+    font-weight: 600;
+    color: #ffb400;
+}
+
+.store-date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.rate-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.rate-btn:hover {
+    background-color: #0056b3;
+}
+
+.rating-form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rating-form input,
+.rating-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.rating-form textarea {
+    resize: none;
+    min-height: 70px;
+}
+
+.submit-rating {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.submit-rating:hover {
+    background-color: #218838;
+}

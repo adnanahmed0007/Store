@@ -1,0 +1,81 @@
+/* ======= Home Page Styles ======= */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1f1f1f, #2b2b2b, #1a1a1a);
+  color: white;
+}
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.home-card {
+  background: #222;
+  border-radius: 15px;
+  padding: 50px 40px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  max-width: 600px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.home-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.home-description {
+  font-size: 1.1rem;
+  color: #c7c7c7;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.home-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.home-btn.user {
+  background-color: #3b82f6;
+}
+
+.home-btn.admin {
+  background-color: #10b981;
+}
+
+.home-btn.store {
+  background-color: #f59e0b;
+}
+
+.home-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}

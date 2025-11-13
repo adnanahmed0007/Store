@@ -1,0 +1,89 @@
+.adduser-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f4f6;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .adduser-form {
+    background: #ffffff;
+    padding: 40px;
+    width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .adduser-form:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .adduser-form h2 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  
+  .adduser-form label {
+    display: block;
+    margin-bottom: 6px;
+    color: #374151;
+    font-weight: 500;
+  }
+  
+  .adduser-form input,
+  .adduser-form textarea,
+  .adduser-form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #fafafa;
+    font-size: 1rem;
+    color: #111827;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  
+  .adduser-form input:focus,
+  .adduser-form textarea:focus,
+  .adduser-form select:focus {
+    border-color: #2563eb;
+    background-color: #ffffff;
+  }
+  
+  .adduser-form textarea {
+    resize: none;
+    height: 90px;
+  }
+  
+  .adduser-form button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s, transform 0.2s;
+  }
+  
+  .adduser-form button:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+  }
+  
+  .adduser-message {
+    text-align: center;
+    margin-top: 10px;
+    color: #065f46;
+    font-weight: 500;
+  }
+  
