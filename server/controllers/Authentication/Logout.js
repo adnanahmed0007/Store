@@ -1,4 +1,4 @@
-//logout contrller expire the jwt token by clearing the cookie
+ 
 import jwt from "jsonwebtoken";
 const logout = async (req, res) => {
     try {
@@ -23,4 +23,5 @@ const logout = async (req, res) => {
         })
     }
 }
+
 export default logout;
