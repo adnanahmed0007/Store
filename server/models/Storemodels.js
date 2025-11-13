@@ -1,4 +1,4 @@
-//store models with these input fieldsStore Name Address Overall Rating
+ 
 import mongoose from "mongoose";
 
 const StoreSchema = new mongoose.Schema({
@@ -27,4 +27,5 @@ const StoreSchema = new mongoose.Schema({
         timestamps: true
     });
 const Storemodels = mongoose.model("Storemodels", StoreSchema);
+
 export default Storemodels;
