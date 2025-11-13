@@ -1,4 +1,4 @@
-//user can rate the store and give review create rge model
+ 
 import mongoose from "mongoose";
 
 const RatingSchema = new mongoose.Schema({
@@ -34,3 +34,4 @@ const RatingSchema = new mongoose.Schema({
     });
 const Rating = mongoose.model("Rating", RatingSchema);
 export default Rating;
+
